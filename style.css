@@ -23,7 +23,7 @@ body{
 .myname{
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 5rem;
-    color:white;
+    color:black;
 }
 nav{
     position: absolute;
@@ -34,7 +34,7 @@ nav{
  }
  nav a, footer a{
      text-decoration:none;
-     color: white;
+     color: black;
      font-size: 2rem;
      margin: 25px;
      padding: 6px;
