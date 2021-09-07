@@ -41,7 +41,7 @@ nav{
  }
  nav a:hover, .active{
   color:#30cc1c;
-  background-color: black;
+  background-color: white;
   font-weight: bold;
   border-radius: 5px;
  }
@@ -122,7 +122,7 @@ nav{
 #bio{
     font-size: 2rem;
     width: 500px;
-    margin: 100px 0 0px 200px;
+    margin: 30px 0 0px 30px;
     font-weight: bold;
     color:#30cc1c;
     line-height: 3rem;
