@@ -17,7 +17,7 @@ body{
  /* Header */
  header, footer{
     display: flex;
-    background-color: #4d0ea0;
+    background-color: white;
     align-items: center;
 }
 .myname{
@@ -41,7 +41,7 @@ nav{
  }
  nav a:hover, .active{
   color:#30cc1c;
-  background-color: white;
+  background-color: black;
   font-weight: bold;
   border-radius: 5px;
  }
