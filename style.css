@@ -17,13 +17,13 @@ body{
  /* Header */
  header, footer{
     display: flex;
-    background-color: white;
+    background-color: #30cc1c;
     align-items: center;
 }
 .myname{
     font-family: 'ZCOOL KuaiLe', cursive;
     font-size: 5rem;
-    color:black;
+    color:white;
 }
 nav{
     position: absolute;
@@ -34,7 +34,7 @@ nav{
  }
  nav a, footer a{
      text-decoration:none;
-     color: black;
+     color: white;
      font-size: 2rem;
      margin: 25px;
      padding: 6px;
