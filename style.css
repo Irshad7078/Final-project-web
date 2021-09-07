@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(221, 221, 221);
+    overflow-x: hidden;
+}
+ /* Header */
+ header, footer{
+    display: flex;
+    background-color: #30cc1c;
+    align-items: center;
+}
+.myname{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 5rem;
+    color:white;
+}
+nav{
+    position: absolute;
+    right: 50px;
+}
+ nav li, footer li{
+     list-style: none;
+ }
+ nav a, footer a{
+     text-decoration:none;
+     color: white;
+     font-size: 2rem;
+     margin: 25px;
+     padding: 6px;
+ }
+ nav a:hover, .active{
+  color:#30cc1c;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+ }
+ nav ul, footer ul{
+     display: flex;
+     justify-content: center;
+ }
+
+ /* MAIN */
+
+ 
+ 
+
+
+ #box{
+    margin: 200px 0 0px 200px;
+ }
+ .container {
+ margin-bottom:50px ;
+ width: 350px;
+ }
+ .container p {
+   font-size: 3rem;
+   padding: 0.5rem;
+   font-weight: bold;
+   letter-spacing: 0.1rem;
+   text-align: center;
+   overflow: hidden;
+ }
+ .container p span.typed-text {
+   font-weight: normal;
+   color: #30cc1c;
+   font-family: 'ZCOOL KuaiLe', cursive;
+ }
+ .container p span.cursor {
+   display: inline-block;
+   background-color: #ccc;
+   margin-left: 0.1rem;
+   width: 3px;
+   animation: blink 1s infinite;
+ }
+ .container p span.cursor.typing {
+   animation: none;
+ }
+ @keyframes blink {
+   0%  { background-color: #ccc; }
+   49% { background-color: #ccc; }
+   50% { background-color: transparent; }
+   99% { background-color: transparent; }
+   100%  { background-color: #ccc; }
+ }
+ #iam{
+     color:black;
+     width: 350px;
+ }
+ .button, .text a{
+     color:white;
+     text-decoration: none;
+     font-size: 2rem;
+     border: 2px solid #30cc1c ;
+     background-color: #30cc1c;
+     padding: 5px 10px;
+     border-radius: 5px;
+     margin: 20px;
+ }
+ .button:hover{
+    background-color: white;
+    color:#30cc1c;
+    font-weight: bold;
+ }
+ .svg1{
+     position: absolute;
+     top:150px;
+     right: 100px;
+     width: 500px;
+     border-radius:50px;
+ }
+#bio{
+    font-size: 2rem;
+    width: 500px;
+    margin: 100px 0 0px 200px;
+    font-weight: bold;
+    color:#30cc1c;
+    line-height: 3rem;
+}
+
+/* Section 2 : Portfolio */
+
+.p-heading{
+    Background-color: #30cc1c;
+    text-align:center;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+}
+.card{
+    border: 2px solid #30cc1c;
+    margin: 4rem 0 4rem 0;
+    border-radius: 10px;
+    display: flex;
+    background-color: #30cc1c15;
+    box-shadow: 5px 5px 5px  5px #ad1c5815, inset 5px 5px 5px  5px #ad1c5815;
+}
+.button{
+    box-shadow: 2px 2px 2px  2px #ad1c5815, inset 5px 5px 5px  5px #ad1c5815;
+}
+#parent-card{
+    margin: 0 100px;
+}
+.card img{
+    width:400px;
+    border-right: 2px solid #30cc1c;
+    border-radius: 10px 0px 0 10px;
+}
+.card h1{
+    font-size: 2.5rem;
+    color:#30cc1c;
+    font-family: 'Baloo Thambi 2', cursive;
+    margin: auto;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.text{
+display: flex;
+flex-direction: column;
+margin: 2rem 5rem;
+font-weight: bold;
+}
+.text div, .text p{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.text a{
+    font-size: 2rem;
+    background-color: white;
+    color: #30cc1c;
+    text-align: center;
+    width: 500px;
+    margin:auto;
+}
+.text a:hover{
+    background-color: #30cc1c;
+    color: white; 
+}
+#card8 .text{
+    width: 1000px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+  @media (max-width: 1176.98px) { 
+    .svg1{
+        z-index: -1;
+    }
+    .text a{
+        width: 90px;
+    }
+    #box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right:0px;
+        place-items: center;
+        border: 2px solid #30cc1c;
+        background-color: #30cc1c25;
+    }
+    .text{
+        margin-left: 0px;
+        margin-right:0px;
+        position: none;
+    }
+   #parent-card{
+    margin-left: 0px;
+    margin-right:0px;
+   }
+  }
+  @media (max-width: 800px) {
+      nav a{
+          margin: 10px;
+      }
+  }
+  @media (max-width: 696px) {
+    .card img{
+        width: 200px;
+        height: 112px;
+    }
+  }
+  @media (max-width: 734px) {
+      #bio{
+          margin-left:0px;
+          margin-right: 0px;
+      }
+      .myname{
+         visibility: hidden;
+      }
+      @media (max-width: 530px) {
+        #bio{
+            width: 400px;
+        }
+    }
+    @media (max-width: 408px) {
+        #bio{
+            width: 300px;
+        }
+    }}
+    .container{
+        font-size: 50px;
+        font-family: 'Anton', sans-serif;
+    }
+    #About{
+    margin-top: 200px;;
+    }
+    #socials{
+    
+        width: 500px;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    img{
+        width: 30px;
+        margin: 20px; 
+    }
+    .card img{
+        display: none;
+    }
+    .card{
+        display:flex;
+        flex-direction: column;
+        place-items: center;
+    }
