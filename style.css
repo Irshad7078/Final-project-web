@@ -17,7 +17,7 @@ body{
  /* Header */
  header, footer{
     display: flex;
-    background-color: #30cc1c;
+    background-color: #4d0ea0;
     align-items: center;
 }
 .myname{
